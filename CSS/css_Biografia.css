@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@font-face {
+	font-family:'CaviarDreams';
+	src: url("../Fontes/CaviarDreams.ttf");
+}
+
+.fadeIn {
+-webkit-animation: fadeIn 1s ease-in-out;
+-moz-animation: fadeIn 1s ease-in-out;
+-o-animation: fadeIn 1s ease-in-out;
+animation: fadeIn 1s ease-in-out;
+}
+
+.logo{
+	position:relative;
+	top:20px;
+	margin-left:40px;
+	left:-18px;
+}
+
+nav#menu{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:12px;
+	position:absolute;
+	top:0;
+	margin-left:-260px;
+	left:50%;
+}
+
+nav#menu li{
+	color:#FFF;
+	display:inline-block;
+	padding:10px;
+	margin:2px;
+	margin-top:-10px;
+	-webkit-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: 0.5s;
+}
+
+nav#menu li:hover{
+	text-decoration:underline;
+	color:#CCC;
+}
+
+#fundoMenu{
+	background-color:#000;
+	width:100%;
+	height:130px;
+	opacity:0.5;
+	position:absolute;
+	top:0;
+}
+
+.foto{
+	position: absolute;
+	width: 550px;
+}
+
+.foto img{
+	position: relative;
+	width: 850px;
+	top: 125px;
+	margin-left: 20%;
+}
+
+.Biografia{
+	position: relative;
+	top: 230px;
+	margin-left: 50%;
+	width: 650px;
+	height: 1000px;
+}
+
+.Biografia h3{
+	color: white;
+	margin: 5px;
+	font-family: 'CaviarDreams';
+}
+
+.linha{
+	width: 650px;
+	height: 1px;
+	position: relative;
+	background-color: white;
+}
+
+.Biografia h5{
+	color: white;
+	margin: 5px;
+	font-family: 'CaviarDreams';
+}
+
+.curiosidade{
+	position: relative;
+	top: 20px;
+}
+
+.linha2{
+	width: 650px;
+	height: 1px;
+	position: relative;
+	top: 20px;
+	background-color: white;
+}
+
+.Biografia li{
+	position: relative;
+	top: 15px;
+	margin-top: 10px;
+	left: 14px;
+	color: white;
+	font-size: 15px;
+	font-family: 'CaviarDreams';
+}
+
+.linha3{
+	width: 650px;
+	height: 1px;
+	position: relative;
+	top: 35px;
+	background-color: white;
+}
+
+.habilidade{
+	position: relative;
+	top: 35px;
+}
+
+.hab ul{
+	position: absolute;
+	padding: 0;
+}
+
+#ZB{
+	width: 450px;
+	height: 20px;
+	background-color: #C6C5C5;
+	font-size: 15px;
+	color: black;
+	list-style: none;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.sesenta5{
+	margin-left: 460px;
+	position: relative;
+	color:white;
+	top: 17px;
+}
+
+#AD{
+	width: 360px;
+	height: 20px;
+	background-color: #3AD5CF;
+	font-size: 15px;
+	color: black;
+	list-style: none;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.sesenta{
+	margin-left: 370px;
+	position: relative;
+	color:white;
+	top: 15px;
+}
+
+#ps{
+	width: 500px;
+	height: 20px;
+	background-color: #7CB1DF;
+	font-size: 15px;
+	color: black;
+	list-style: none;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.noventa{
+	margin-left: 510px;
+	position: relative;
+	color:white;
+	top: 17px;
+}
+
+#MA{
+	width: 480px;
+	height: 20px;
+	background-color: #83BAC0;
+	font-size: 15px;
+	color: black;
+	list-style: none;
+	margin-left: -10px;
+}
+
+.oitenta7{
+	margin-left: 490px;
+	position: relative;
+	color:white;
+	top: -3px;
+}
+
+#RF{
+	width: 400px;
+	height: 20px;
+	background-color: #3266CC;
+	font-size: 15px;
+	color: black;
+	list-style: none;
+	margin-left: -10px;
+	top: -5px;
+}
+
+.sesenta2{
+	margin-left: 410px;
+	position: relative;
+	color:white;
+	top: -23px;
+}
+
+#FX{
+	width: 430px;
+	height: 20px;
+	background-color: #C49DC9;
+	font-size: 15px;
+	color: black;
+	list-style: none;
+	margin-left: -10px;
+	top: -25px;
+}
+
+.setenta{
+	margin-left: 440px;
+	position: relative;
+	top: -43px;
+	color:white;
+}
+
+#PR{
+	width: 480px;
+	height: 20px;
+	background-color: #D385DB;
+	font-size: 15px;
+	color: black;
+	list-style: none;
+	margin-left: -10px;
+	top: -45px;
+}
+
+.oitenta{
+	margin-left: 490px;
+	position: relative;
+	top: -63px;
+	color:white;
+}
+
+#AI{
+	width: 525px;
+	height: 20px;
+	background-color: #EAB268;
+	font-size: 15px;
+	color: black;
+	list-style: none;
+	margin-left: -10px;
+	top: -65px;
+}
+
+.noventaTres{
+	margin-left: 535px;
+	position: relative;
+	top: -83px;
+	color:white;
+}
+
+#BL{
+	width: 415px;
+	height: 20px;
+	background-color: #D66927;
+	font-size: 15px;
+	color: black;
+	list-style: none;
+	margin-left: -10px;
+	top: -85px;
+}
+
+.setenta2{
+	margin-left: 425px;
+	position: relative;
+	color:white;
+	top: -103px;
+}

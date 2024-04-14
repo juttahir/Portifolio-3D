@@ -1,0 +1,737 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+.fadeIn {
+-webkit-animation: fadeIn 1s ease-in-out;
+-moz-animation: fadeIn 1s ease-in-out;
+-o-animation: fadeIn 1s ease-in-out;
+animation: fadeIn 1s ease-in-out;
+}
+
+.logo{
+	position:relative;
+	top:20px;
+	margin-left:40px;
+	left:-18px;
+}
+
+nav#menu{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:12px;
+	position:absolute;
+	top:0;
+	margin-left:-260px;
+	left:50%;
+}
+
+nav#menu li{
+	color:#FFF;
+	display:inline-block;
+	padding:10px;
+	margin:2px;
+	margin-top:-10px;
+	-webkit-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: 0.5s;
+}
+
+nav#menu li:hover{
+	text-decoration:underline;
+	color:#CCC;
+}
+
+#fundoMenu{
+	background-color:#000;
+	width:100%;
+	height:130px;
+	opacity:0.5;
+	position:absolute;
+	top:0;
+}
+
+ul#albumFotos{
+	width:1500px;
+	position:absolute;
+	top:114px;
+	left:150px;
+	padding:50px;
+	overflow:hidden;
+	list-style:none;
+	z-index: 0;
+}
+
+ul#albumFotos li{
+	float:left;
+	width:300px;
+	height:300px;
+	margin:20px;
+	margin-left:40px;
+	margin-top:23px;
+	box-shadow: 1px 1px 4px black;
+	border:5px solid grey;
+	background-color:#FFF;
+	box-shadow:1px 1px 3px rgba(0,0,0,.4);
+	transition:all .6s ease-in-out;
+}
+
+ul#albumFotos li#foto1{
+	background:url(../Imagens/Portifolio/cranio.jpg) no-repeat;
+	background-position:50% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto1:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto2{
+	background-image:url(../Imagens/Portifolio/Vinho.jpg);
+	background-position:50% 20%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto2:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto3{
+	background-image:url(../Imagens/Portifolio/Cerveja.jpg);
+	background-position:80% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto3:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto4{
+	background-image:url(../Imagens/Portifolio/Chocolate.jpg);
+	background-position:50% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto4:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto5{
+	background-image:url(../Imagens/Portifolio/Persona.jpg);
+	background-position:50% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto5:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto6{
+	background-image:url(../Imagens/Portifolio/Breja.jpg);
+	background-position:90% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto6:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto7{
+	background-image:url(../Imagens/Portifolio/Umbrella.jpg);
+	background-position:50% 40%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto7:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto8{
+	background-image:url(../Imagens/Portifolio/Paradiso.jpg);
+	background-position:80% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto8:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto9{
+	background-image:url(../Imagens/Portifolio/McLaren.jpg);
+	background-position:80% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto9:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto10{
+	background-image:url(../Imagens/Portifolio/Tocha.jpg);
+	background-position:80% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto10:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto11{
+	background-image:url(../Imagens/Portifolio/Beco.jpg);
+	background-position:80% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto11:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto12{
+	background-image:url(../Imagens/Portifolio/Trem.jpg);
+	background-position:80% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto12:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto13{
+	background-image:url(../Imagens/Portifolio/PS.jpg);
+	background-position:80% 50%;
+	background-size:350px 350px;
+	position: relative;
+}
+
+ul#albumFotos li#foto13:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto14{
+	background:url(../Imagens/Portifolio/Casa.jpg) no-repeat;
+	background-position:50% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto14:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto15{
+	background:url(../Imagens/Portifolio/Petrolifera.jpg) no-repeat;
+	background-position:50% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto15:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li#foto16{
+	background:url(../Imagens/Portifolio/Foguete.jpg) no-repeat;
+	background-position:50% 50%;
+	background-size:400px 400px;
+	position: relative;
+}
+
+ul#albumFotos li#foto16:hover{
+	background-size:100% 100%;
+}
+
+ul#albumFotos li span{
+	opacity:0;
+	position:absolute;
+	top:0px;
+	background-color: rgba(0,0,0,.6);
+	width:100%;
+	height:100%;
+	transition:1s;
+}
+
+ul#albumFotos li span:hover{
+	opacity: 1;
+}
+
+ul#albumFotos li span h2{
+	color:white;
+	position:absolute;
+	margin-left:8%;
+	bottom:130px;
+	transition:1.2s;
+}
+
+ul#albumFotos li span:hover h2{
+	margin-left:15%;
+	bottom:125px;
+}
+
+ul#albumFotos li:hover{
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+	-webkit-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+
+#albumFotos p{
+	color:white;
+	position:absolute;
+	margin-left:27%;
+	bottom:90px;
+	transition:1s;
+}
+
+#albumFotos:hover p{
+	margin-left:22%;
+	bottom:110px;
+}
+
+#bg_Imagens li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.cranioImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens2 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens2{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.TacaImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens3 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens3{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.PetrolImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+
+
+#bg_Imagens4 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens4{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.CasaImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens5 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens5{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.CervejaImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens6 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens6{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.ChocolateImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens7 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens7{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.PersonaImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens8 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens8{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.CanecaImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens9 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens9{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.UmbrellaImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens10 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens10{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.FogueteImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens11 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens11{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.OnibusImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens12 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens12{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.F1Imagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens13 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens13{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.TochaImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens14 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens14{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.BecoImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}
+
+#bg_Imagens15 li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 3%;
+	z-index: 1;
+	top:auto;
+}
+
+#bg_Imagens15{
+	position:absolute;
+	top:20px;
+	width:100%;
+	margin-left: 1%;
+	display:none;
+}
+
+.TremImagens{
+	width:95%;
+	background-color:#CCC;
+	position:absolute;
+}

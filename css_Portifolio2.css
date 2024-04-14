@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+.fadeIn {
+-webkit-animation: fadeIn 1s ease-in-out;
+-moz-animation: fadeIn 1s ease-in-out;
+-o-animation: fadeIn 1s ease-in-out;
+animation: fadeIn 1s ease-in-out;
+}
+
+.logo{
+	position:relative;
+	top:20px;
+	margin-left:40px;
+	left:-18px;
+}
+
+nav#menu{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:12px;
+	position:absolute;
+	top:0;
+	margin-left:-300px;
+	left:50%;
+}
+
+nav#menu li{
+	color:#FFF;
+	display:inline-block;
+	padding:10px;
+	margin:2px;
+	margin-top:-10px;
+	-webkit-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: 0.5s;
+}
+
+nav#menu li:hover{
+	text-decoration:underline;
+	color:#CCC;
+}
+
+#fundoMenu{
+	background-color:#000;
+	width:100%;
+	height:130px;
+	opacity:0.5;
+	position:absolute;
+	top:0;
+}
+
+#Imagens1{
+	width:100%;
+	height:230px;
+	position:absolute;
+	top:180px;
+	float:left;
+}
+
+#Imagens2{
+	width:100%;
+	height:230px;
+	position:absolute;
+	top:550px;
+	float:left;
+}
+
+#Imagens3{
+	width:100%;
+	height:230px;
+	position:absolute;
+	top:920px;
+	float:left;
+}
+
+#Imagens4{
+	width:100%;
+	height:230px;
+	position:absolute;
+	top:1270px;
+	float:left;
+}
+
+figure.foto{
+	color:white;
+	position:relative;
+	border:5px solid grey;
+	width:300px;
+	box-shadow: 1px 1px 4px black;
+	float:left;
+	left:270px;
+	margin:15px;
+	transition:1s;
+}
+
+figure.foto img{
+	width:100%;
+	height:100%;
+	transition:1s;
+}
+
+figure.foto figcaption{
+	opacity:0;
+	position:absolute;
+	top:0px;
+	background-color: rgba(0,0,0,.6);
+	width:100%;
+	height:100%;
+	transition:1s;
+}
+
+figure.foto:hover figcaption{
+	opacity:1;
+	width:100%;
+}
+
+figure.foto:hover{
+	width:350px;
+	margin: 0;
+}
+
+figure.foto figcaption h1{
+	color:white;
+	position:absolute;
+	margin-left:8%;
+	bottom:130px;
+	transition:1s;
+}
+
+figure.foto figcaption p{
+	color:white;
+	position:absolute;
+	margin-left:27%;
+	bottom:110px;
+	transition:1s;
+}
+
+figure.foto:hover h1{
+	margin-left:20%;
+	bottom:150px;
+}
+
+figure.foto:hover p{
+	margin-left:22%;
+	bottom:130px;
+}
+
+#bg_Imagens li{
+	color: #FFF;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	right: 15px;
+	top:auto;
+	padding: 0;
+}
+
+#bg_Imagens{
+	position:absolute;
+	top:20px;
+	width:100%;
+	height:1270px;
+	background-color: rgba(0,0,0,.8);
+	display:none;
+}
+
+.cranioImagens{
+	width:1800px;
+	height:2200px;
+	background-color:#CCC;
+	position:absolute;
+	margin-left:50%;
+	left:-900px;
+}
+
+.cranioImagens img{
+	position:relative;
+	margin:50px;
+	left:-25px;
+}

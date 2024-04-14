@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@font-face {
+	font-family:'CaviarDreams';
+	src: url("../Fontes/CaviarDreams.ttf");
+}
+
+.fadeIn {
+-webkit-animation: fadeIn 1s ease-in-out;
+-moz-animation: fadeIn 1s ease-in-out;
+-o-animation: fadeIn 1s ease-in-out;
+animation: fadeIn 1s ease-in-out;
+}
+
+.logo{
+	position:relative;
+	top:20px;
+	margin-left:40px;
+	left:-18px;
+}
+
+nav#menu{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:12px;
+	position:absolute;
+	top:0;
+	margin-left:-260px;
+	left:50%;
+}
+
+nav#menu li{
+	color:#FFF;
+	display:inline-block;
+	padding:10px;
+	margin:2px;
+	margin-top:-10px;
+	-webkit-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: 0.5s;
+}
+
+nav#menu li:hover{
+	text-decoration:underline;
+	color:#CCC;
+}
+
+#fundoMenu{
+	background-color:#000;
+	width:100%;
+	height:130px;
+	opacity:0.5;
+	position:absolute;
+	top:0;
+}
+
+#Contato{
+	position: absolute;
+	top: 20%;
+	margin-left: 50%;
+	left: -280px;
+}
+
+#Contato li{
+	list-style: none;
+	color: white;
+	font-size: 40px;
+	font-family: 'CaviarDreams';
+	text-align: center;
+	*-background-color: rgba(125, 127, 121);-*
+}
+
+#Contato h2{
+	position: relative;
+	text-align: center;
+	color: white;
+	font-family: 'CaviarDreams';
+	top: 150px;
+}
+
+.Redes{
+	width: 450px;
+	position: absolute;
+	top: 75%;
+	margin-left:-225px;
+	left:50%;
+	padding: 0;
+}
+
+.Redes li{
+	width: 190px;
+	list-style: none;
+	position: relative;
+	margin-left: -95px;
+	left: 50%;
+	color: white;
+	padding: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-family: 'CaviarDreams';
+}
+
+.Redes img{
+	position: relative;
+	width: 70px;
+	padding: 0;
+  -webkit-transform: scale(1);
+  -webkit-filter: brightness(100%);
+	transition:all .6s ease-in-out;
+}
+
+.Redes img:hover{
+	animation: pulse 0.7s infinite;
+	animation-direction: alternate;
+	animation-name: pulse;
+  -webkit-transform: scale(1.1);
+  -webkit-filter: brightness(150%);
+}

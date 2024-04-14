@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+.logo{
+	position:relative;
+	top:20px;
+	margin-left:40px;
+	left:-18px;
+}
+
+nav#menu{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:12px;
+	position:absolute;
+	top:0;
+	margin-left:-260px;
+	left:50%;
+}
+
+nav#menu li{
+	color:#FFF;
+	display:inline-block;
+	padding:10px;
+	margin:2px;
+	margin-top:-10px;
+	-webkit-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: 0.5s;
+}
+
+nav#menu li:hover{
+	text-decoration:underline;
+	color:#CCC;
+}
+
+#fundoMenu{
+	background-color:#000;
+	width:100%;
+	height:130px;
+	opacity:0.5;
+	position:absolute;
+	top:0;
+}
+
+.slides {
+	height:959px;
+	overflow:hidden;
+	position:absolut;
+}
+.slides ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+}
+
+@keyframes anim_slides {
+	0% {
+	opacity:0;
+	}
+	6% {
+	opacity:1;
+	}
+	24% {
+	opacity:1;
+	}
+	30% {
+	opacity:0;
+	}
+	100% {
+	opacity:0;
+	}
+}
+
+.slides ul li {
+	    opacity:0;
+	    position:absolute;
+	    top:0;
+
+		animation-name: anim_slides;
+	    animation-duration: 24.0s;
+	    animation-timing-function: linear;
+	    animation-iteration-count: infinite;
+	    animation-direction: normal;
+	    animation-delay: 0;
+	    animation-play-state: running;
+	    animation-fill-mode: forwards;
+}
+
+.slides ul  li:nth-child(2), .slides ul  li:nth-child(2) div {
+	animation-delay: 6.0s;
+}
+.slides ul  li:nth-child(3), .slides ul  li:nth-child(3) div {
+	animation-delay: 12.0s;
+}
+.slides ul  li:nth-child(4), .slides ul  li:nth-child(4) div {
+	animation-delay: 18.0s;
+}
+.slides ul li img {
+	display:block;
+}
+
+.slides ul li div {
+	left:10%;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:50%;
+	width:200px;
+}
+
+.sidebar{
+	background-color:#000;
+	width:100%;
+	height:35px;
+	opacity:0.5;
+	position:absolute;
+	bottom:0;
+}
+
+.nomeSide{
+	color:#FFF;
+	top:10px;
+	margin-left:37%;
+	position:relative;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:12px;
+}
